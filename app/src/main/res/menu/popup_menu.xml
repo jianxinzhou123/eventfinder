@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_delete"
+        app:showAsAction ="ifRoom|withText"
+        android:title="Delete"
+        />
+    <item
+        android:id="@+id/action_move_to_old"
+        app:showAsAction="ifRoom|withText"
+        android:title="Move to past event"
+        />
+    <item
+        android:id="@+id/action_dont_delete"
+        app:showAsAction="ifRoom|withText"
+        android:title="Cancel"
+        />
+</menu>
